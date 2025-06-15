@@ -1,0 +1,114 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 네비게이션 바 고정 */
+#main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#logo-container img {
+  height: 50px;
+}
+
+#nav-links {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #a32424;
+}
+
+#franchise-button {
+  background-color: #a32424;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#franchise-button:hover {
+  background-color: #8c1c1c;
+}
+
+main {
+  max-width: 700px;
+  margin: 120px auto 60px;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #a32424;
+  text-align: center;
+}
+
+label {
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.form-control:focus {
+  border-color: #a32424;
+  box-shadow: 0 0 0 0.2rem rgba(163, 36, 36, 0.25);
+}
+
+button[type="submit"] {
+  background-color: #a32424;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+button[type="submit"]:hover {
+  background-color: #8c1c1c;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  padding: 15px 20px;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-logo img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-info p {
+  margin: 2px 0;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.4;
+}
